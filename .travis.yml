@@ -1,0 +1,10 @@
+deploy:
+    provider: heroku
+    api_key:
+    secure: 
+  app: testing-travis
+     secure: <YOUR ENCRYPTED KEY HERE>
+   app: <YOUR APP NAME HERE>
+    on:
+ 
+     repo: <YOUR REPO INFO HERE>
